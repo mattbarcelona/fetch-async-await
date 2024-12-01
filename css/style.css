@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #f2f2f2;
   margin: 0;
 }
@@ -14,16 +14,6 @@ header {
 
 .poke-logo {
   width: 200px;
-
-}
-
-#app {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-
-  padding: 20px;
 }
 
 .pagination {
@@ -38,14 +28,16 @@ header {
 }
 
 #searchInput {
-
   padding: 8px;
   margin: 0 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-#searchBtn, #prevBtn, #nextBtn, #resetBtn {
+#searchBtn,
+#prevBtn,
+#nextBtn,
+#resetBtn {
   margin: 10px 0;
   padding: 10px;
   border: none;
@@ -58,11 +50,48 @@ header {
   color: white;
 }
 
-#prevBtn, #nextBtn, #resetBtn {
-  background-color: #2196F3;
+#prevBtn,
+#nextBtn,
+#resetBtn {
+  background-color: #2196f3;
   color: white;
 }
 
-#searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
+#searchBtn:hover,
+#prevBtn:hover,
+#nextBtn:hover,
+#resetBtn:hover {
   opacity: 0.8;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+  margin: 20;
+}
+
+li {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 18%;
+  height: auto;
+}
+
+.imGen {
+  width: 150px;
+  height: auto;
 }
